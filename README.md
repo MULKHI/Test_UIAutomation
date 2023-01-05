@@ -2,6 +2,7 @@
 Repository ini merupakan tugas UI Automation Testing dari Jojonomic
 
 #Tonton Vidio penjelasan singkat saya mengenai project ini
+
 https://www.awesomescreenshot.com/video/13750157?key=bc1712373197c18fb51b547786e16ed3
 
 ## Kenapa Menggunakan Katalon Studio?
