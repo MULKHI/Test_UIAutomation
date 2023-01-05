@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="106.23002">
+<testcase classname="Search" name="Search using keyword match existing content" time="70.943025">
+<system-out><![CDATA[Given I Open Browser........................................................passed
+When Input keyword match existing content 'Apply for a number plate'........passed
+And Click Search Button.....................................................passed
+Then Verify Users Get Some Related Content..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search" name="Search using keyword not match existing content" time="35.286995">
+<system-out><![CDATA[Given I Open Browser........................................................passed
+When Input keyword NOT match existing content 'Indonesia'...................passed
+And Click Search Button.....................................................passed
+Then Verify Users NOT Get Some Related Content..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

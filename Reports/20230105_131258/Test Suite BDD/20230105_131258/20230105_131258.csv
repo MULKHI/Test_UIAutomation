@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite BDD,Chrome 108.0.0.0,,,2023-01-05 13:13:15,2023-01-05 13:19:45,6m - 30.099s,FAILED
+,,,,,,,
+Test Cases/BDD_Cucumber/Feature Search/Run Feature File,Chrome 108.0.0.0,,,2023-01-05 13:13:15,2023-01-05 13:15:06,1m - 51.153s,PASSED
+"runFeatureFile(""Include/features/Feature Search.feature"")",Chrome 108.0.0.0,,,2023-01-05 13:13:16,2023-01-05 13:15:06,1m - 50.516s,PASSED
+,,,,,,,
+Test Cases/BDD_Cucumber/Feature Search Service NSW Location/Run Feature File,Chrome 108.0.0.0,,,2023-01-05 13:15:07,2023-01-05 13:19:45,4m - 38.236s,FAILED
+"runFeatureFile(""Include/features/Feature Search Service NSW Location.feature"")",Chrome 108.0.0.0,,,2023-01-05 13:15:09,2023-01-05 13:19:45,4m - 35.816s,FAILED

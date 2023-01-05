@@ -1,0 +1,157 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Open browser home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 46965217000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Open Browser",
+            "match": {
+              "location": "FeatureSearch_StepDef.I_Open_Browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Search using keyword match existing content",
+        "description": "",
+        "id": "search;search-using-keyword-match-existing-content",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4071030800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input keyword match existing content \u0027Apply for a number plate\u0027",
+            "match": {
+              "location": "FeatureSearch_StepDef.Input_keyword_match_existing_content()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3294870700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Search Button",
+            "match": {
+              "location": "FeatureSearch_StepDef.Click_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4544370400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify Users Get Some Related Content",
+            "match": {
+              "location": "FeatureSearch_StepDef.Verify_Users_Get_Some_Related_Content()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Open browser home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 27118974400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Open Browser",
+            "match": {
+              "location": "FeatureSearch_StepDef.I_Open_Browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Search using keyword not match existing content",
+        "description": "",
+        "id": "search;search-using-keyword-not-match-existing-content",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3254043100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Input keyword NOT match existing content \u0027Indonesia\u0027",
+            "match": {
+              "location": "FeatureSearch_StepDef.Input_keyword_NOT_match_existing_content()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2465687200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click Search Button",
+            "match": {
+              "location": "FeatureSearch_StepDef.Click_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2434415600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify Users NOT Get Some Related Content",
+            "match": {
+              "location": "FeatureSearch_StepDef.Verify_Users_NOT_Get_Some_Related_Content()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "  I want to use Search Feature for find existing content",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "D:/Automation Katalon Studio/Jojonomic_Test_UIAutomation/Include/features/Feature Search.feature",
+    "tags": []
+  }
+]

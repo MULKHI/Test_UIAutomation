@@ -1,0 +1,776 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "017edbb5-1d64-4d24-9e5d-5dfbe79465fb",
+        "line": 5,
+        "name": "Open browser Service Centre page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22934449700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Open Browser Service Centre page",
+            "match": {
+              "location": "FeatureSearchService_StepDef.I_Open_Browser_Service_Centre_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "855fe2d1-aeca-4863-8115-49c6077ccc01"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "017edbb5-1d64-4d24-9e5d-5dfbe79465fb",
+        "line": 16,
+        "name": "Search Service NSW Location named as \u0027Marrickville Service Centre\u0027 with some suburb data",
+        "description": "",
+        "id": "search-service-nsw-location;search-service-nsw-location-named-as--marrickville-service-centre--with-some-suburb-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7715550200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input some suburb data Sydney 2000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney 2000",
+                  "offset": 23
+                }
+              ],
+              "location": "FeatureSearchService_StepDef.Input_some_suburb_data(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "27fe3774-a2d8-4413-b338-be9e3799a5b2"
+          },
+          {
+            "result": {
+              "duration": 2595048400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Search Location Button",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Click_Search_Location_Button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "50c510e1-e5f7-43af-a5eb-3cd90092cec3"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Verify element text of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 FAILED.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat ✽.Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027(D:/Automation Katalon Studio/Jojonomic_Test_UIAutomation/Include/features/Feature Search Service NSW Location.feature:12)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Actual text \u0027Wynyard Service Centre\u0027 and expected text \u0027Marrickville Service Centre\u0027 of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 are NOT matched.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Run Feature File.run(Run Feature File:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1672899178104.run(TempTestSuite1672899178104.groovy:36)\r\n",
+              "duration": 5057812700,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Verify_I_Get_Location_Service()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "32969b25-149e-4f45-98de-d02ee6fa1e8c"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "5cbc9b9e-3f3d-463c-a8cc-d7ae4387dd0a",
+        "line": 5,
+        "name": "Open browser Service Centre page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29979666000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Open Browser Service Centre page",
+            "match": {
+              "location": "FeatureSearchService_StepDef.I_Open_Browser_Service_Centre_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "a2bdd66b-7d50-4b94-a1fa-6d156708d65b"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "5cbc9b9e-3f3d-463c-a8cc-d7ae4387dd0a",
+        "line": 17,
+        "name": "Search Service NSW Location named as \u0027Marrickville Service Centre\u0027 with some suburb data",
+        "description": "",
+        "id": "search-service-nsw-location;search-service-nsw-location-named-as--marrickville-service-centre--with-some-suburb-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1715653200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input some suburb data Sydney South 2000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney South 2000",
+                  "offset": 23
+                }
+              ],
+              "location": "FeatureSearchService_StepDef.Input_some_suburb_data(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "7362e070-72ac-4f91-8935-d3d0721e4249"
+          },
+          {
+            "result": {
+              "duration": 781781900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Search Location Button",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Click_Search_Location_Button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "127ffbbe-aa01-4053-87c2-76a4393ccba2"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Verify element text of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 FAILED.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat ✽.Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027(D:/Automation Katalon Studio/Jojonomic_Test_UIAutomation/Include/features/Feature Search Service NSW Location.feature:12)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Actual text \u0027Wynyard Service Centre\u0027 and expected text \u0027Marrickville Service Centre\u0027 of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 are NOT matched.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Run Feature File.run(Run Feature File:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1672899178104.run(TempTestSuite1672899178104.groovy:36)\r\n",
+              "duration": 2337800400,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Verify_I_Get_Location_Service()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9208859e-0bc3-4f65-b143-29c10cd90e3e"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "43ea7c33-64ef-4077-854f-3e7a44f769ac",
+        "line": 5,
+        "name": "Open browser Service Centre page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 25100595900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Open Browser Service Centre page",
+            "match": {
+              "location": "FeatureSearchService_StepDef.I_Open_Browser_Service_Centre_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "8c962dc5-7538-48f1-983b-b68b884f1054"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "43ea7c33-64ef-4077-854f-3e7a44f769ac",
+        "line": 18,
+        "name": "Search Service NSW Location named as \u0027Marrickville Service Centre\u0027 with some suburb data",
+        "description": "",
+        "id": "search-service-nsw-location;search-service-nsw-location-named-as--marrickville-service-centre--with-some-suburb-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1863903600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input some suburb data Sydney University 2006",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney University 2006",
+                  "offset": 23
+                }
+              ],
+              "location": "FeatureSearchService_StepDef.Input_some_suburb_data(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "b6454ed5-140b-4ceb-acea-34f3caf0f67a"
+          },
+          {
+            "result": {
+              "duration": 1037205500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Search Location Button",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Click_Search_Location_Button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8b16f164-0f20-49dc-a2ac-d1aebd4d0b5c"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Verify element text of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 FAILED.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat ✽.Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027(D:/Automation Katalon Studio/Jojonomic_Test_UIAutomation/Include/features/Feature Search Service NSW Location.feature:12)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Actual text \u0027Narrabri Service Centre\u0027 and expected text \u0027Marrickville Service Centre\u0027 of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 are NOT matched.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Run Feature File.run(Run Feature File:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1672899178104.run(TempTestSuite1672899178104.groovy:36)\r\n",
+              "duration": 2339971500,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Verify_I_Get_Location_Service()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "ac4822c3-fbbb-4b48-91f5-705dd6b32c1e"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "ffaad5c1-1c20-4109-9225-bf7a2df2e654",
+        "line": 5,
+        "name": "Open browser Service Centre page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23377958200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Open Browser Service Centre page",
+            "match": {
+              "location": "FeatureSearchService_StepDef.I_Open_Browser_Service_Centre_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "faa8f1c4-f21b-40de-b465-91cee8e6fc3a"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "ffaad5c1-1c20-4109-9225-bf7a2df2e654",
+        "line": 19,
+        "name": "Search Service NSW Location named as \u0027Marrickville Service Centre\u0027 with some suburb data",
+        "description": "",
+        "id": "search-service-nsw-location;search-service-nsw-location-named-as--marrickville-service-centre--with-some-suburb-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4348812500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input some suburb data Sydney Olympic Park 2127",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney Olympic Park 2127",
+                  "offset": 23
+                }
+              ],
+              "location": "FeatureSearchService_StepDef.Input_some_suburb_data(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "077a5dba-335a-46fe-9867-b3b3e9d12c31"
+          },
+          {
+            "result": {
+              "duration": 556644000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Search Location Button",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Click_Search_Location_Button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cc6788b9-4303-48ce-9636-eaac7be650e4"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Verify element text of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 FAILED.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat ✽.Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027(D:/Automation Katalon Studio/Jojonomic_Test_UIAutomation/Include/features/Feature Search Service NSW Location.feature:12)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Actual text \u0027Auburn Service Centre\u0027 and expected text \u0027Marrickville Service Centre\u0027 of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 are NOT matched.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Run Feature File.run(Run Feature File:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1672899178104.run(TempTestSuite1672899178104.groovy:36)\r\n",
+              "duration": 2284751300,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Verify_I_Get_Location_Service()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "050104cd-25ba-4ec7-9c43-57d7e643cb88"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "31464319-b919-45c3-a957-c9b75fd03b96",
+        "line": 5,
+        "name": "Open browser Service Centre page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22569865300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Open Browser Service Centre page",
+            "match": {
+              "location": "FeatureSearchService_StepDef.I_Open_Browser_Service_Centre_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "18cda0a5-ab6a-4483-9319-57679431a0fc"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "31464319-b919-45c3-a957-c9b75fd03b96",
+        "line": 20,
+        "name": "Search Service NSW Location named as \u0027Marrickville Service Centre\u0027 with some suburb data",
+        "description": "",
+        "id": "search-service-nsw-location;search-service-nsw-location-named-as--marrickville-service-centre--with-some-suburb-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3017682600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input some suburb data Sydney Domestic Airport 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney Domestic Airport 2020",
+                  "offset": 23
+                }
+              ],
+              "location": "FeatureSearchService_StepDef.Input_some_suburb_data(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "fefc144f-74d4-42e7-8fc2-94e0669fb912"
+          },
+          {
+            "result": {
+              "duration": 514872400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Search Location Button",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Click_Search_Location_Button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "adf5ead5-7c32-481c-8792-b910916dbbac"
+          },
+          {
+            "result": {
+              "duration": 4202221400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Verify_I_Get_Location_Service()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "f298177f-179e-4649-a6cb-337c086d9c6f"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "06eb48da-c616-43f9-8d88-55346d067bd1",
+        "line": 5,
+        "name": "Open browser Service Centre page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31119995100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Open Browser Service Centre page",
+            "match": {
+              "location": "FeatureSearchService_StepDef.I_Open_Browser_Service_Centre_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "1ee544ba-3fd4-49c9-8b0d-136e9dc432d4"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "06eb48da-c616-43f9-8d88-55346d067bd1",
+        "line": 21,
+        "name": "Search Service NSW Location named as \u0027Marrickville Service Centre\u0027 with some suburb data",
+        "description": "",
+        "id": "search-service-nsw-location;search-service-nsw-location-named-as--marrickville-service-centre--with-some-suburb-data;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1754517700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input some suburb data Unsw Sydney 2052",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Unsw Sydney 2052",
+                  "offset": 23
+                }
+              ],
+              "location": "FeatureSearchService_StepDef.Input_some_suburb_data(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "00e15ce1-dd60-44fa-8e03-1c780b86f667"
+          },
+          {
+            "result": {
+              "duration": 1395013900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Search Location Button",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Click_Search_Location_Button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "9359d950-8c79-4e84-a21a-f8fd2eddcb35"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Verify element text of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 FAILED.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat ✽.Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027(D:/Automation Katalon Studio/Jojonomic_Test_UIAutomation/Include/features/Feature Search Service NSW Location.feature:12)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Actual text \u0027Haymarket Service Centre\u0027 and expected text \u0027Marrickville Service Centre\u0027 of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 are NOT matched.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Run Feature File.run(Run Feature File:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1672899178104.run(TempTestSuite1672899178104.groovy:36)\r\n",
+              "duration": 2412330200,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Verify_I_Get_Location_Service()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "177dabaa-a833-4ce4-98f2-c48227f64104"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "2dd0970b-b42a-44f0-9c84-2feff26d34ed",
+        "line": 5,
+        "name": "Open browser Service Centre page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20418176300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Open Browser Service Centre page",
+            "match": {
+              "location": "FeatureSearchService_StepDef.I_Open_Browser_Service_Centre_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "edb96dd2-c0bd-4ccf-839f-943f14758e4e"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "2dd0970b-b42a-44f0-9c84-2feff26d34ed",
+        "line": 22,
+        "name": "Search Service NSW Location named as \u0027Marrickville Service Centre\u0027 with some suburb data",
+        "description": "",
+        "id": "search-service-nsw-location;search-service-nsw-location-named-as--marrickville-service-centre--with-some-suburb-data;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1480277600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input some suburb data North Sydney 2060",
+            "match": {
+              "arguments": [
+                {
+                  "val": "North Sydney 2060",
+                  "offset": 23
+                }
+              ],
+              "location": "FeatureSearchService_StepDef.Input_some_suburb_data(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "53d6a0f0-d2ab-42b7-a542-8330ac58787f"
+          },
+          {
+            "result": {
+              "duration": 959977000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Search Location Button",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Click_Search_Location_Button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c15afe41-06fb-450e-a95d-440a6287b98a"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Verify element text of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 FAILED.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat ✽.Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027(D:/Automation Katalon Studio/Jojonomic_Test_UIAutomation/Include/features/Feature Search Service NSW Location.feature:12)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Actual text \u0027North Sydney Service Centre\u0027 and expected text \u0027Marrickville Service Centre\u0027 of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 are NOT matched.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Run Feature File.run(Run Feature File:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1672899178104.run(TempTestSuite1672899178104.groovy:36)\r\n",
+              "duration": 2383170400,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Verify_I_Get_Location_Service()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "89b1722c-2490-4d25-9b34-f94275366993"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a42b052a-402e-45ec-83b5-aa6c64daeb3a",
+        "line": 5,
+        "name": "Open browser Service Centre page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21430195500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Open Browser Service Centre page",
+            "match": {
+              "location": "FeatureSearchService_StepDef.I_Open_Browser_Service_Centre_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "a818fb03-3b5e-4a1c-960b-13a8495dc704"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a42b052a-402e-45ec-83b5-aa6c64daeb3a",
+        "line": 23,
+        "name": "Search Service NSW Location named as \u0027Marrickville Service Centre\u0027 with some suburb data",
+        "description": "",
+        "id": "search-service-nsw-location;search-service-nsw-location-named-as--marrickville-service-centre--with-some-suburb-data;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1499875900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input some suburb data The University Of Sydney 2006",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The University Of Sydney 2006",
+                  "offset": 23
+                }
+              ],
+              "location": "FeatureSearchService_StepDef.Input_some_suburb_data(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "56611cdb-c73b-4ca5-8166-374da3c94f07"
+          },
+          {
+            "result": {
+              "duration": 895764000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Search Location Button",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Click_Search_Location_Button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7803ef22-c653-4e49-9bb9-89776efb6885"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Verify element text of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 FAILED.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat ✽.Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027(D:/Automation Katalon Studio/Jojonomic_Test_UIAutomation/Include/features/Feature Search Service NSW Location.feature:12)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Actual text \u0027Narrabri Service Centre\u0027 and expected text \u0027Marrickville Service Centre\u0027 of test object \u0027Object Repository/Page/Find Location Page/P_Result_Search_Location\u0027 are NOT matched.\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)\r\n\tat FeatureSearchService_StepDef.Verify_I_Get_Location_Service(FeatureSearchService_StepDef.groovy:77)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Run Feature File.run(Run Feature File:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1672899178104.run(TempTestSuite1672899178104.groovy:36)\r\n",
+              "duration": 1959659200,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Verify I Get Location Service Named as \u0027Marrickville Service Centre\u0027",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Verify_I_Get_Location_Service()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "7e7a3176-7d97-4630-bd37-b366317dbbb8"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "12e7cc85-99fe-48ab-89f7-12eec833a772",
+        "line": 5,
+        "name": "Open browser Service Centre page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19522494400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Open Browser Service Centre page",
+            "match": {
+              "location": "FeatureSearchService_StepDef.I_Open_Browser_Service_Centre_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "6f95ffdb-f99d-4439-8305-47bdb7ce0f5d"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "12e7cc85-99fe-48ab-89f7-12eec833a772",
+        "line": 33,
+        "name": "Search Find Service NSW location using invalid Suburb",
+        "description": "",
+        "id": "search-service-nsw-location;search-find-service-nsw-location-using-invalid-suburb;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2086635200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input Invalid suburb data Jakarta 2000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jakarta 2000",
+                  "offset": 26
+                }
+              ],
+              "location": "FeatureSearchService_StepDef.Input_Invalid_suburb_data(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "48f40dcd-295a-475e-a4e9-b15e52829c21"
+          },
+          {
+            "result": {
+              "duration": 505556000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click Search Location Button",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Click_Search_Location_Button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e4870042-00be-4adb-899c-74c17c9ba5ea"
+          },
+          {
+            "result": {
+              "duration": 909000600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verify I Get Error Message \u0027We couldn\u0027t find that suburb or postcode.\u0027",
+            "match": {
+              "location": "FeatureSearchService_StepDef.Verify_I_Get_Error_Message()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "b6153f27-c08d-4d8e-a3db-4ceabf08fb86"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Search Service NSW Location",
+    "description": "  I want to Search Service NSW Location",
+    "id": "search-service-nsw-location",
+    "keyword": "Feature",
+    "uri": "D:/Automation Katalon Studio/Jojonomic_Test_UIAutomation/Include/features/Feature Search Service NSW Location.feature",
+    "tags": []
+  }
+]
