@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "B04C97525B090358AB4DA4EC72DC9DE6",
+  "keywordClasses": [
+    {
+      "name": "Feature_Search_Service_NSW_location",
+      "keywordMethods": [
+        {
+          "name": "FeatureSearchServiceLocation",
+          "parameters": [
+            {
+              "name": "action",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

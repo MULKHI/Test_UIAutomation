@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Find Service NSW location using invalid data</description>
+   <name>TC_SSL_02</name>
+   <tag>@Negative</tag>
+   <comment></comment>
+   <testCaseGuid>79d0bca2-cc7c-40bd-80fa-f7b3715c41be</testCaseGuid>
+</TestCaseEntity>

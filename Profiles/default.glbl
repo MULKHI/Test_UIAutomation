@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Url Home Page</description>
+      <initValue>'https://www.service.nsw.gov.au/#page-title'</initValue>
+      <name>Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>ValidSearch</description>
+      <initValue>'Apply for a number plate'</initValue>
+      <name>ValidSearch</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>InvalidSearch</description>
+      <initValue>'Indonesia'</initValue>
+      <name>InvalidSearch</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.service.nsw.gov.au/service-centre'</initValue>
+      <name>Url_service_centre</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Invalid Seach Service</description>
+      <initValue>'Jakarta 2000'</initValue>
+      <name>InvalidSearchService</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Marrickville Service Centre'</initValue>
+      <name>service</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Run Feature File</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6ff6e82-eeec-4c9d-a01d-fde7592db880</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7f4e408-2372-4a44-92ce-4704adacdbcb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>32a19810-873b-4d7c-817a-81de4b14bc1d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Test_Data').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d7f4e408-2372-4a44-92ce-4704adacdbcb</id>
+      <masked>true</masked>
+      <name>Suburb</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test_Data').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>32a19810-873b-4d7c-817a-81de4b14bc1d</id>
+      <masked>true</masked>
+      <name>ServiceLocation</name>
+   </variable>
+</TestCaseEntity>

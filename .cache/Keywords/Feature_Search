@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "243432782EFFF7FA5009E4EDB633AB0D",
+  "keywordClasses": [
+    {
+      "name": "Feature_Search",
+      "keywordMethods": [
+        {
+          "name": "FeatureSearchApp",
+          "parameters": [
+            {
+              "name": "action",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
