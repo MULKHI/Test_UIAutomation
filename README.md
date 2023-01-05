@@ -12,9 +12,7 @@ Anda bisa clone github repository, Jika tidak paham cara clone github repository
 
 
 ### 📄Test Reports
-After running, the report will appear in the Reports folder in the form of HTML
-
-![Screenshot (360)](https://user-images.githubusercontent.com/80143004/194088690-a52d6cee-ec13-4086-b3b4-16d273b7deb1.png)
+Bisa dicek pada folder Report
 
 If you are still confused and have problems, you can contact me via the link below 👇
 
