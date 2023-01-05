@@ -1,6 +1,9 @@
 # Jojonomic_Test_UIAutomation
 Repository ini merupakan tugas UI Automation Testing dari Jojonomic
 
+#Tonton Vidio penjelasan singkat saya mengenai project ini
+https://www.awesomescreenshot.com/video/13750157?key=bc1712373197c18fb51b547786e16ed3
+
 ## Kenapa Menggunakan Katalon Studio?
 Karena Katalon Studio mudah digunakan dan juga bisa melakukan 3 jenis tipe UI Automation Testing yaitu BDD Cucumber, Custom Keyword dan Automation Record & Play,
 Tidak hanya itu Katalon Studio juga bisa digunakan untuk Web/Mobile testing dan API Testing.
