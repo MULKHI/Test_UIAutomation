@@ -1,4 +1,4 @@
-# Jojonomic_Test_UIAutomation
+# Test_UIAutomation
 Repository ini merupakan tugas UI Automation Testing dari Jojonomic
 
 # Video penjelasan singkat saya mengenai project ini👇
